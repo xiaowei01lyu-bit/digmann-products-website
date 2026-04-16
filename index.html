@@ -3,214 +3,1355 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIGMANN PRODUCTS (SHANGHAI) CO., LTD. - 工业组件制造商 | 磁铁、汽车零部件、紧固件</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="DIGMANN PRODUCTS 是专业的工业组件制造商，提供高品质磁铁、塑料零件、汽车零部件、紧固件等产品。15 年经验，500+ 全球客户，IATF 16949 & ISO 9001:2015 认证。">
-    <meta name="keywords" content="磁铁, 塑料零件, 汽车零部件, 紧固件, 工业组件, 磁铁制造商, 上海制造商, 外贸批发, B2B 供应商, 精密加工">
-    <meta name="author" content="DIGMANN PRODUCTS (SHANGHAI) CO., LTD.">
+    <title>DIGMANN PRODUCTS | Professional Precision Component Manufacturer & Custom OEM Solutions</title>
+    <meta name="description" content="DIGMANN PRODUCTS - IATF 16949 & ISO 9001:2015 certified precision component manufacturer from Shanghai. Specializing in magnets, injection molding, auto parts, CNC machining, fasteners & electronic components. 15+ years experience, 500+ global clients.">
+    <meta name="keywords" content="precision components, OEM manufacturer, injection molding, CNC machining, automotive parts, magnets, fasteners, electronic components, IATF 16949, ISO 9001, Shanghai manufacturer">
+    <meta name="author" content="DIGMANN PRODUCTS (Shanghai) Co., Ltd.">
     <meta name="robots" content="index, follow">
-    <meta name="language" content="Chinese">
-    <meta name="revisit-after" content="7 days">
     
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.digmannproducts.com/">
-    <meta property="og:title" content="DIGMANN PRODUCTS (SHANGHAI) CO., LTD. - 专业工业组件制造商">
-    <meta property="og:description" content="提供高品质磁铁、塑料零件、汽车零部件、紧固件等产品。IATF 16949 & ISO 9001:2015 认证制造商。">
-    <meta property="og:image" content="https://www.digmannproducts.com/images/logo.png">
+    <meta property="og:title" content="DIGMANN PRODUCTS | Precision Component Manufacturer">
+    <meta property="og:description" content="Professional precision component manufacturer with 15+ years experience. IATF 16949 & ISO 9001:2015 certified.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1562408590-e32931084e23?w=1200&h=630&fit=crop">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://www.digmannproducts.com/">
-    <meta name="twitter:title" content="DIGMANN PRODUCTS (SHANGHAI) CO., LTD.">
-    <meta name="twitter:description" content="专业工业组件制造商，提供高品质磁铁、塑料零件、汽车零部件、紧固件等产品。">
-    <meta name="twitter:image" content="https://www.digmannproducts.com/images/logo.png">
+    <meta name="twitter:title" content="DIGMANN PRODUCTS | Precision Component Manufacturer">
+    <meta name="twitter:description" content="Professional precision component manufacturer from Shanghai. IATF 16949 certified.">
     
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://www.digmannproducts.com/assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.digmannproducts.com/">
     
     <!-- Favicon -->
-    <link rel="icon" href="https://www.digmannproducts.com/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔧</text></svg>">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #1e40af;
+            --secondary-color: #3b82f6;
+            --accent-color: #f59e0b;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f9fafb;
+            --white: #ffffff;
+            --border-color: #e5e7eb;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Top Bar */
+        .top-bar {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 12px 0;
+            font-size: 14px;
+        }
+        
+        .top-bar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 30px;
+        }
+        
+        .top-bar-info {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            flex: 1;
+        }
+        
+        .top-bar-info span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+        }
+        
+        .top-bar-cert {
+            white-space: nowrap;
+            font-weight: 500;
+        }
+        
+        /* Header & Navigation */
+        .header {
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        
+        .logo-icon {
+            width: 45px;
+            height: 45px;
+            background: var(--primary-color);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 35px;
+            align-items: center;
+        }
+        
+        .nav-menu a {
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+            position: relative;
+            font-size: 15px;
+        }
+        
+        .nav-menu a:hover {
+            color: var(--primary-color);
+        }
+        
+        .nav-menu a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary-color);
+            transition: width 0.3s;
+        }
+        
+        .nav-menu a:hover::after {
+            width: 100%;
+        }
+        
+        .nav-cta {
+            background: var(--accent-color);
+            color: var(--white) !important;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        
+        .nav-cta::after {
+            display: none !important;
+        }
+        
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--text-dark);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: var(--white);
+            padding: 120px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&h=1080&fit=crop') center/cover;
+            opacity: 0.15;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 14px;
+            margin-bottom: 25px;
+            backdrop-filter: blur(10px);
+            font-weight: 500;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 25px;
+            line-height: 1.2;
+            font-weight: 700;
+        }
+        
+        .hero-subtitle {
+            font-size: 20px;
+            margin-bottom: 35px;
+            opacity: 0.95;
+            line-height: 1.7;
+        }
+        
+        .hero-stats {
+            display: flex;
+            gap: 50px;
+            margin: 50px 0;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 42px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            font-size: 15px;
+            opacity: 0.9;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 16px 35px;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: all 0.3s;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+        }
+        
+        .btn-primary {
+            background: var(--accent-color);
+            color: var(--white);
+        }
+        
+        .btn-primary:hover {
+            background: #d97706;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(245, 158, 11, 0.3);
+        }
+        
+        .btn-secondary {
+            background: var(--white);
+            color: var(--primary-color);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--bg-light);
+            transform: translateY(-2px);
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 100px 0;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+        
+        .section-tag {
+            display: inline-block;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+        
+        .section-title {
+            font-size: 40px;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .section-subtitle {
+            color: var(--text-light);
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        
+        /* About Section with Parallax Background */
+        .about {
+            background: var(--bg-light);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .about::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&h=800&fit=crop') center/cover;
+            opacity: 0.08;
+            z-index: 0;
+        }
+        
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .about-image {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .about-image:hover img {
+            transform: scale(1.05);
+        }
+        
+        .about-content h2 {
+            font-size: 36px;
+            margin-bottom: 25px;
+            color: var(--text-dark);
+            line-height: 1.3;
+        }
+        
+        .about-content p {
+            color: var(--text-light);
+            margin-bottom: 25px;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        
+        .about-features {
+            margin-top: 40px;
+        }
+        
+        .feature-list {
+            list-style: none;
+            margin-top: 25px;
+        }
+        
+        .feature-list li {
+            padding: 12px 0;
+            padding-left: 35px;
+            position: relative;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+        
+        .feature-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        /* Products Grid - 6 Cards in 2 Rows */
+        .products-carousel {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        
+        .product-card {
+            background: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            height: 100%;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .product-image {
+            height: 220px;
+            overflow: hidden;
+            position: relative;
+            background: var(--bg-light);
+        }
+        
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .product-card:hover .product-image img {
+            transform: scale(1.1);
+        }
+        
+        .product-content {
+            padding: 25px;
+        }
+        
+        .product-content h3 {
+            font-size: 20px;
+            margin-bottom: 12px;
+            color: var(--text-dark);
+        }
+        
+        .product-content p {
+            color: var(--text-light);
+            margin-bottom: 18px;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+        
+        .product-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .product-tag {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 5px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        /* Industries Carousel - Fixed to Show 5 Cards */
+        .industries-wrapper {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding: 20px 0;
+        }
+        
+        .industries-carousel {
+            display: flex;
+            gap: 20px;
+            width: max-content;
+            animation: scrollIndustries 60s linear infinite;
+        }
+        
+        .industries-carousel:hover {
+            animation-play-state: paused;
+        }
+        
+        @keyframes scrollIndustries {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(-50% - 10px));
+            }
+        }
+        
+        .industry-card {
+            flex: 0 0 260px;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 350px;
+            cursor: pointer;
+        }
+        
+        .industry-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .industry-card:hover .industry-image {
+            transform: scale(1.1);
+        }
+        
+        .industry-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(30, 64, 175, 0.95), transparent);
+            padding: 25px 20px 20px;
+            color: var(--white);
+        }
+        
+        .industry-overlay h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .industry-overlay p {
+            font-size: 13px;
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+        
+        /* News Carousel with Arrows */
+        .news-carousel-wrapper {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .news-carousel {
+            display: flex;
+            gap: 25px;
+            transition: transform 0.5s ease;
+        }
+        
+        .news-card {
+            flex: 0 0 calc(20% - 20px);
+            min-width: 0;
+            background: var(--white);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            min-height: 320px;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .news-icon {
+            font-size: 40px;
+            margin-bottom: 18px;
+        }
+        
+        .news-card h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            color: var(--text-dark);
+            line-height: 1.4;
+        }
+        
+        .news-card p {
+            color: var(--text-light);
+            margin-bottom: 18px;
+            line-height: 1.6;
+            font-size: 14px;
+            flex-grow: 1;
+        }
+        
+        .news-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 13px;
+            color: var(--text-light);
+            align-items: center;
+            margin-top: auto;
+        }
+        
+        .news-badge {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        
+        /* Carousel Navigation Arrows */
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 50px;
+            background: var(--white);
+            border: 2px solid var(--border-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 10;
+            transition: all 0.3s;
+            font-size: 20px;
+            color: var(--text-dark);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .carousel-nav:hover {
+            background: var(--primary-color);
+            color: var(--white);
+            border-color: var(--primary-color);
+            transform: translateY(-50%) scale(1.1);
+        }
+        
+        .carousel-nav.prev {
+            left: -25px;
+        }
+        
+        .carousel-nav.next {
+            right: -25px;
+        }
+        
+        /* Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+        
+        .contact-form {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid var(--border-color);
+            border-radius: 5px;
+            font-size: 15px;
+            transition: border-color 0.3s;
+            font-family: inherit;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .contact-info h3 {
+            font-size: 32px;
+            margin-bottom: 25px;
+            color: var(--text-dark);
+        }
+        
+        .contact-info > p {
+            color: var(--text-light);
+            margin-bottom: 35px;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        
+        .contact-details {
+            margin-top: 35px;
+        }
+        
+        .contact-item {
+            display: flex;
+            gap: 18px;
+            margin-bottom: 28px;
+            align-items: flex-start;
+        }
+        
+        .contact-icon {
+            font-size: 24px;
+            color: var(--primary-color);
+            flex-shrink: 0;
+        }
+        
+        .contact-item-content h4 {
+            font-size: 16px;
+            margin-bottom: 6px;
+            color: var(--text-dark);
+        }
+        
+        .contact-item-content p,
+        .contact-item-content a {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+        
+        .contact-item-content a:hover {
+            color: var(--primary-color);
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--text-dark);
+            color: var(--white);
+            padding: 70px 0 30px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        
+        .footer-brand h3 {
+            font-size: 26px;
+            margin-bottom: 18px;
+        }
+        
+        .footer-brand p {
+            color: #9ca3af;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-link {
+            width: 42px;
+            height: 42px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            font-size: 18px;
+        }
+        
+        .social-link:hover {
+            background: var(--accent-color);
+            transform: translateY(-3px);
+        }
+        
+        .footer-column h4 {
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: var(--white);
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-column ul li a {
+            color: #9ca3af;
+            transition: color 0.3s;
+        }
+        
+        .footer-column ul li a:hover {
+            color: var(--white);
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #374151;
+            padding-top: 35px;
+            text-align: center;
+            color: #9ca3af;
+            font-size: 14px;
+        }
+        
+        /* WhatsApp Float Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25d366;
+            color: var(--white);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+            cursor: pointer;
+            z-index: 999;
+            transition: all 0.3s;
+            animation: pulse 2s infinite;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+            }
+            50% {
+                box-shadow: 0 5px 30px rgba(37, 211, 102, 0.7);
+            }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .products-carousel {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .industry-card {
+                flex: 0 0 240px;
+            }
+            
+            .news-card {
+                flex: 0 0 calc(33.333% - 20px);
+            }
+        }
+        
+        @media (max-width: 968px) {
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 70px;
+                flex-direction: column;
+                background-color: var(--white);
+                width: 100%;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow: 0 10px 27px rgba(0,0,0,0.05);
+                padding: 20px 0;
+                gap: 0;
+            }
+            
+            .nav-menu.active {
+                left: 0;
+            }
+            
+            .nav-menu li {
+                margin: 15px 0;
+            }
+            
+            .mobile-menu-toggle {
+                display: block;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .hero-subtitle {
+                font-size: 18px;
+            }
+            
+            .about-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 50px;
+            }
+            
+            .about::before {
+                display: none;
+            }
+            
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .products-carousel {
+                grid-template-columns: 1fr;
+            }
+            
+            .industry-card {
+                flex: 0 0 280px;
+            }
+            
+            .news-card {
+                flex: 0 0 calc(50% - 20px);
+            }
+            
+            .carousel-nav {
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+            }
+            
+            .carousel-nav.prev {
+                left: -10px;
+            }
+            
+            .carousel-nav.next {
+                right: -10px;
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .top-bar-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .top-bar-info {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .section-title {
+                font-size: 32px;
+            }
+            
+            .hero-stats {
+                gap: 30px;
+            }
+            
+            .stat-number {
+                font-size: 32px;
+            }
+            
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                font-size: 24px;
+                bottom: 20px;
+                right: 20px;
+            }
+            
+            .industry-card {
+                flex: 0 0 260px;
+            }
+            
+            .news-card {
+                flex: 0 0 100%;
+            }
+            
+            .carousel-nav {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
+    <!-- Top Bar -->
+    <div class="top-bar">
         <div class="container">
-            <div class="logo">
-                <a href="https://www.digmannproducts.com/">
-                    <img src="https://www.digmannproducts.com/images/logo.png" alt="DIGMANN PRODUCTS Logo" height="50">
-                </a>
-            </div>
-            <nav class="navbar">
-                <ul class="nav-links">
-                    <li><a href="https://www.digmannproducts.com/">首页</a></li>
-                    <li><a href="https://www.digmannproducts.com/products">产品中心</a></li>
-                    <li><a href="https://www.digmannproducts.com/about">关于我们</a></li>
-                    <li><a href="https://www.digmannproducts.com/quality">质量保证</a></li>
-                    <li><a href="https://www.digmannproducts.com/production">生产工艺</a></li>
-                    <li><a href="https://www.digmannproducts.com/contact">联系我们</a></li>
-                </ul>
-            </nav>
-            <div class="contact-info">
-                <a href="https://www.digmannproducts.com/contact">
-                    <button class="btn-primary">联系我们</button>
-                </a>
+            <div class="top-bar-content">
+                <div class="top-bar-info">
+                    <span>📍 Shanghai, China</span>
+                    <span>✉️ Sales@digmannproducts.com</span>
+                    <span>🕐 Mon-Fri: 9:00 - 18:00 CST (GMT+8)</span>
+                </div>
+                <div class="top-bar-cert">✓ IATF 16949 & ISO 9001:2015 Certified Manufacturer</div>
             </div>
         </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">DP</div>
+                <span>DIGMANN PRODUCTS</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#capabilities">Capabilities</a></li>
+                <li><a href="#business">Products</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="nav-cta">Get Quote</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">☰</button>
+        </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="fade-in">专业工业组件制造商</h1>
-            <p class="fade-in">15 年行业经验，为全球客户提供高品质工业组件解决方案</p>
-            <div class="fade-in">
-                <a href="https://www.digmannproducts.com/products" class="btn-primary">浏览产品</a>
-                <a href="https://www.digmannproducts.com/contact" class="btn-secondary">联系我们</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Products Section -->
-    <section class="products-section">
+    <section class="hero" id="home">
         <div class="container">
-            <h2 class="section-title">核心产品</h2>
-            <div class="product-cards">
-                <div class="product-card fade-in">
-                    <img src="https://www.digmannproducts.com/images/magnets.jpg" alt="磁铁产品">
-                    <h3>磁铁系列</h3>
-                    <p>钕铁硼磁铁、钐钴磁铁、陶瓷磁铁</p>
+            <div class="hero-content">
+                <div class="hero-badge">✓ IATF 16949 & ISO 9001:2015 Certified Manufacturer</div>
+                <h1>Professional Precision Component Manufacturer | Custom OEM Solutions</h1>
+                <p class="hero-subtitle">
+                    Greetings from Digmann Products (Shanghai) Co., Ltd. I'm David Lv, Sales Manager. 
+                    We specialize in providing high-quality precision components that meet global automotive 
+                    and industrial standards, matching the professional benchmarks of industry leaders like FORVIA.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Global Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98.7%</span>
+                        <span class="stat-label">On-Time Delivery</span>
+                    </div>
                 </div>
-                <div class="product-card fade-in">
-                    <img src="https://www.digmannproducts.com/images/plastic-parts.jpg" alt="塑料零件">
-                    <h3>塑料零件</h3>
-                    <p>精密注塑、定制模具、批量生产</p>
-                </div>
-                <div class="product-card fade-in">
-                    <img src="https://www.digmannproducts.com/images/auto-parts.jpg" alt="汽车零部件">
-                    <h3>汽车零部件</h3>
-                    <p>IATF 16949 认证，质量保证体系</p>
-                </div>
-                <div class="product-card fade-in">
-                    <img src="https://www.digmannproducts.com/images/fasteners.jpg" alt="紧固件">
-                    <h3>紧固件</h3>
-                    <p>螺栓、螺母、垫圈、定制规格</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">🚀 Request Free Quote</a>
+                    <a href="#capabilities" class="btn btn-secondary">Explore Capabilities</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about-section">
+    <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title">关于我们</h2>
-            <div class="about-content fade-in">
-                <div class="about-text">
-                    <h3>15 年行业经验</h3>
-                    <p>自 2009 年成立以来，DIGMANN PRODUCTS 已成为全球领先的工业组件制造商。我们专注于提供高质量的磁铁、塑料零件、汽车零部件、紧固件等产品，服务全球 500 多家客户。</p>
-                    <p>我们的生产基地位于中国上海，配备先进的生产设备和专业的技术团队。我们拥有 IATF 16949 和 ISO 9001:2015 双重认证，确保每个产品都符合国际质量标准。</p>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=900&h=700&fit=crop" 
+                         alt="Professional Manufacturing Facility - Precision Components Production"
+                         id="aboutImage"
+                         onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=900&h=700&fit=crop';">
                 </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <h4>15+</h4>
-                        <p>年行业经验</p>
+                <div class="about-content">
+                    <div class="section-tag">ABOUT US</div>
+                    <h2>Professional Precision Component Manufacturer | Custom OEM Solutions</h2>
+                    <p>
+                        Greetings from Digmann Products (Shanghai) Co., Ltd. I'm David Lv, Sales Manager, 
+                        and we specialize in providing high-quality precision components aligned with global 
+                        automotive and industrial standards, echoing the professional ethos of industry leaders like FORVIA.
+                    </p>
+                    <h3>Our Core Capabilities</h3>
+                    <p>
+                        We cover 6 key processes: magnets, plastic parts, automotive components (IATF 16949 certified), 
+                        CNC machining, hardware fasteners, and electronic components—all ISO/RoHS compliant, 
+                        with strict quality control and flexible OEM/ODM services.
+                    </p>
+                    <p>
+                        As a reliable partner, we offer competitive pricing, flexible MOQ, and efficient delivery 
+                        for global clients. Free samples and customized quotations are available upon request.
+                    </p>
+                    <p><strong>We sincerely look forward to establishing a long-term, mutually beneficial cooperation with your esteemed company.</strong></p>
+                    <a href="#contact" class="btn btn-primary" style="margin-top: 25px;">Contact David Lv →</a>
+                    
+                    <div class="about-features">
+                        <h3 style="margin-top: 35px; margin-bottom: 18px;">Why Partner With Us?</h3>
+                        <ul class="feature-list">
+                            <li>ISO 9001:2015 & IATF 16949 Certified Facility</li>
+                            <li>Advanced Equipment: HAAS, DOOSAN, Haitian</li>
+                            <li>In-house QC Lab with CMM & Optical Inspection</li>
+                            <li>Flexible MOQ from 500pcs, Fast Prototyping 3-7 Days</li>
+                            <li>Global Logistics: DDP, FOB, Express Shipping</li>
+                            <li>Dedicated Project Manager for Seamless Communication</li>
+                        </ul>
                     </div>
-                    <div class="stat-item">
-                        <h4>500+</h4>
-                        <p>全球客户</p>
-                    </div>
-                    <div class="stat-item">
-                        <h4>100%</h4>
-                        <p>质量保证</p>
+                    
+                    <div style="margin-top: 35px; padding: 25px; background: white; border-radius: 8px; border-left: 4px solid var(--primary-color); box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                        <h4 style="margin-bottom: 12px;">📧 Sales Contact</h4>
+                        <p style="margin-bottom: 6px;"><strong>Email:</strong> <a href="mailto:Sales@digmannproducts.com" style="color: var(--primary-color);">Sales@digmannproducts.com</a></p>
+                        <p style="margin-bottom: 6px;"><strong>Phone:</strong> <a href="tel:+8613611783573" style="color: var(--primary-color);">+86 136 1178 3573</a></p>
+                        <p><strong>David Lv, Sales Manager</strong></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Quality Section -->
-    <section class="quality-section">
+    <!-- Products Section -->
+    <section class="products" id="business">
         <div class="container">
-            <h2 class="section-title">质量保证</h2>
-            <div class="quality-content fade-in">
-                <div class="certifications">
-                    <div class="cert-item">
-                        <img src="https://www.digmannproducts.com/images/iatf16949.png" alt="IATF 16949 认证">
-                        <h3>IATF 16949:2016</h3>
-                        <p>国际汽车质量管理体系</p>
-                    </div>
-                    <div class="cert-item">
-                        <img src="https://www.digmannproducts.com/images/iso9001.png" alt="ISO 9001:2015 认证">
-                        <h3>ISO 9001:2015</h3>
-                        <p>质量管理体系认证</p>
-                    </div>
-                </div>
-                <div class="quality-features">
-                    <h4>我们的质量保证体系</h4>
-                    <ul>
-                        <li>原材料严格检验</li>
-                        <li>生产过程实时监控</li>
-                        <li>成品全面检测</li>
-                        <li>完善的追溯系统</li>
-                    </ul>
+            <div class="section-header">
+                <div class="section-tag">OUR EXPERTISE</div>
+                <h2 class="section-title">6 Core Business Sectors</h2>
+                <p class="section-subtitle">
+                    Advanced equipment, strict quality control, and engineering expertise to bring your designs to life
+                </p>
+            </div>
+            
+            <div class="products-carousel" id="productsCarousel">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section - Auto Scroll with 10 Cards Showing 5 at a Time -->
+    <section class="industries" id="industries" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">INDUSTRIES WE SERVE</div>
+                <h2 class="section-title">Tailored Manufacturing Solutions</h2>
+                <p class="section-subtitle">
+                    Trusted by global OEMs across high-growth sectors
+                </p>
+            </div>
+            
+            <div class="industries-wrapper">
+                <div class="industries-carousel" id="industriesCarousel">
+                    <!-- Will be populated by JavaScript -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Production Section -->
-    <section class="production-section">
+    <!-- News Section with Arrows -->
+    <section class="news" id="news">
         <div class="container">
-            <h2 class="section-title">生产工艺</h2>
-            <div class="production-content fade-in">
-                <div class="production-steps">
-                    <div class="step-item">
-                        <h4>注塑成型</h4>
-                        <p>高精度注塑设备，确保产品尺寸精确</p>
-                    </div>
-                    <div class="step-item">
-                        <h4>表面电镀</h4>
-                        <p>多种电镀工艺，满足不同客户需求</p>
-                    </div>
-                    <div class="step-item">
-                        <h4>CNC 加工</h4>
-                        <p>精密机械加工，满足定制需求</p>
-                    </div>
-                    <div class="step-item">
-                        <h4>质量检测</h4>
-                        <p>严格的质量检测流程，确保产品合格率</p>
-                    </div>
+            <div class="section-header">
+                <div class="section-tag">COMPANY UPDATES</div>
+                <h2 class="section-title">Latest News</h2>
+                <p class="section-subtitle">
+                    Stay updated with our latest achievements and developments
+                </p>
+            </div>
+            
+            <div class="news-carousel-wrapper">
+                <div class="carousel-nav prev" onclick="moveNewsCarousel(-1)">←</div>
+                <div class="news-carousel" id="newsCarousel">
+                    <!-- Will be populated by JavaScript -->
                 </div>
+                <div class="carousel-nav next" onclick="moveNewsCarousel(1)">→</div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section class="contact" id="contact" style="background: var(--bg-light);">
         <div class="container">
-            <h2 class="section-title">联系我们</h2>
-            <div class="contact-content fade-in">
-                <div class="contact-info">
-                    <h3>联系方式</h3>
-                    <p><strong>公司名称:</strong> DIGMANN PRODUCTS (SHANGHAI) CO., LTD.</p>
-                    <p><strong>地址:</strong> 上海市松江区洞泾镇</p>
-                    <p><strong>电话:</strong> +86-21-6789-1234</p>
-                    <p><strong>邮箱:</strong> sales@digmannproducts.com</p>
-                    <p><strong>网站:</strong> www.digmannproducts.com</p>
-                </div>
+            <div class="section-header">
+                <div class="section-tag">REQUEST A QUOTE</div>
+                <h2 class="section-title">Get Your Custom Quote</h2>
+                <p class="section-subtitle">
+                    Our engineering team will deliver a tailored technical proposal, DFM optimization suggestions, 
+                    and competitive quotation within 24 hours—no hidden costs, fully aligned with your project requirements.
+                </p>
+            </div>
+            
+            <div class="contact-grid">
                 <div class="contact-form">
-                    <h4>在线留言</h4>
-                    <form>
-                        <input type="text" placeholder="姓名" required>
-                        <input type="email" placeholder="邮箱" required>
-                        <input type="text" placeholder="公司" required>
-                        <textarea placeholder="需求描述" rows="5" required></textarea>
-                        <button type="submit" class="btn-primary">提交</button>
+                    <h3 style="margin-bottom: 12px; font-size: 26px;">Get instant customized pricing</h3>
+                    <p style="color: var(--text-light); margin-bottom: 35px;">
+                        Upload your drawings or describe your requirements. Our engineering team will respond within 24 hours.
+                    </p>
+                    
+                    <form id="quoteForm" onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company *</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Work Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">WhatsApp / Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="category">Select Product Category *</label>
+                            <select id="category" name="category" required>
+                                <option value="">Select a service...</option>
+                                <option value="magnets">Magnets & Assemblies</option>
+                                <option value="plastic">Plastic Injection Molding</option>
+                                <option value="automotive">Automotive / EV Components</option>
+                                <option value="cnc">CNC Machining</option>
+                                <option value="fasteners">Hardware & Fasteners</option>
+                                <option value="electronic">Electronic Components</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" placeholder="Please describe your requirements, including material, quantity, tolerance, surface treatment, etc." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            🚀 Submit Inquiry →
+                        </button>
+                        
+                        <p style="margin-top: 18px; font-size: 13px; color: var(--text-light); text-align: center;">
+                            🔒 Your information is secure. We reply within 24h.
+                        </p>
                     </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p>
+                        Ready to start your project? Contact us today for a free consultation and quote. 
+                        Our team is here to help you with all your precision component needs.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-item-content">
+                                <h4>Factory Address</h4>
+                                <p>1-D49, Chaihuo Konglian, No.999 Husong Road<br>Songjiang District, Shanghai, China 201620</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-item-content">
+                                <h4>USA Cell Phone</h4>
+                                <a href="tel:+16282368606">+1 628 236 8606</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">💬</div>
+                            <div class="contact-item-content">
+                                <h4>WhatsApp / Telegram</h4>
+                                <a href="https://wa.me/8613611783573" target="_blank">+86 136 1178 3573</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">✈️</div>
+                            <div class="contact-item-content">
+                                <h4>Telegram Bot</h4>
+                                <a href="https://t.me/DigmannSales_bot" target="_blank">DigmannSales_bot</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-item-content">
+                                <h4>Email (Primary)</h4>
+                                <a href="mailto:Sales@digmannproducts.com">Sales@digmannproducts.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📨</div>
+                            <div class="contact-item-content">
+                                <h4>Email (Secondary)</h4>
+                                <a href="mailto:digmannproducts@gmail.com">digmannproducts@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div class="contact-item-content">
+                                <h4>Business Hours</h4>
+                                <p>Monday-Friday: 9:00-18:00 CST (GMT+8)<br>
+                                <small>Weekend support available for urgent projects</small></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -219,73 +1360,305 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>关于我们</h4>
-                    <p>DIGMANN PRODUCTS 是专业的工业组件制造商，专注于提供高品质的工业组件解决方案。</p>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>DIGMANN PRODUCTS</h3>
+                    <p>Precision OEM/ODM manufacturer from Shanghai – one-stop solution for magnets, plastics, auto, CNC, fasteners, electronics.</p>
+                    <div class="footer-social">
+                        <a href="https://www.youtube.com/@Digmannproducts" target="_blank" class="social-link" title="YouTube">📺</a>
+                        <a href="https://www.linkedin.com/in/digmannproducts" target="_blank" class="social-link" title="LinkedIn">💼</a>
+                        <a href="https://www.tiktok.com/@Digmannproducts" target="_blank" class="social-link" title="TikTok">🎵</a>
+                    </div>
                 </div>
-                <div class="footer-section">
-                    <h4>快速链接</h4>
+                
+                <div class="footer-column">
+                    <h4>Services</h4>
                     <ul>
-                        <li><a href="https://www.digmannproducts.com/products">产品中心</a></li>
-                        <li><a href="https://www.digmannproducts.com/about">关于我们</a></li>
-                        <li><a href="https://www.digmannproducts.com/quality">质量保证</a></li>
-                        <li><a href="https://www.digmannproducts.com/contact">联系我们</a></li>
+                        <li><a href="#capabilities">Injection Molding</a></li>
+                        <li><a href="#capabilities">CNC Machining</a></li>
+                        <li><a href="#capabilities">Auto Parts</a></li>
+                        <li><a href="#capabilities">Fasteners</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h4>产品目录</h4>
+                
+                <div class="footer-column">
+                    <h4>Company</h4>
                     <ul>
-                        <li><a href="https://www.digmannproducts.com/products#magnets">磁铁系列</a></li>
-                        <li><a href="https://www.digmannproducts.com/products#plastic-parts">塑料零件</a></li>
-                        <li><a href="https://www.digmannproducts.com/products#auto-parts">汽车零部件</a></li>
-                        <li><a href="https://www.digmannproducts.com/products#fasteners">紧固件</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#news">Latest News</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h4>联系方式</h4>
-                    <p>sales@digmannproducts.com</p>
-                    <p>+86-21-6789-1234</p>
+                
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📧 <a href="mailto:Sales@digmannproducts.com">Sales@digmannproducts.com</a></li>
+                        <li>📨 <a href="mailto:digmannproducts@gmail.com">digmannproducts@gmail.com</a></li>
+                        <li>📱 <a href="tel:+16282368606">+1 628 236 8606</a></li>
+                        <li>💬 <a href="https://wa.me/8613611783573">+86 136 1178 3573</a></li>
+                        <li>📍 Shanghai, China</li>
+                    </ul>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2024 DIGMANN PRODUCTS (SHANGHAI) CO., LTD. All rights reserved.</p>
-                <p>沪 ICP 备 XXXXXXXX 号</p>
+                <p>© 2026 DIGMANN PRODUCTS (SHANGHAI) CO., LTD. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/8613611783573" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+        💬
+    </a>
+
     <script>
-        // 滚动动画
-        document.addEventListener('DOMContentLoaded', function() {
-            const fadeElements = document.querySelectorAll('.fade-in');
-            
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.opacity = '1';
-                        entry.target.style.transform = 'translateY(0)';
-                    }
-                });
-            }, {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
+        // Mobile Menu Toggle
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const navMenu = document.getElementById('navMenu');
+        
+        mobileMenuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            mobileMenuToggle.textContent = navMenu.classList.contains('active') ? '✕' : '☰';
+        });
+        
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileMenuToggle.textContent = '☰';
             });
-
-            fadeElements.forEach(element => {
-                observer.observe(element);
-            });
-
-            // 导航栏滚动效果
-            window.addEventListener('scroll', function() {
-                const header = document.querySelector('.header');
-                if (window.scrollY > 100) {
-                    header.classList.add('scrolled');
-                } else {
-                    header.classList.remove('scrolled');
+        });
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
                 }
             });
+        });
+        
+        function handleSubmit(e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const data = Object.fromEntries(formData);
+            console.log('Form submitted:', data);
+            alert('Thank you for your inquiry! We will get back to you within 24 hours.');
+            e.target.reset();
+        }
+        
+        // Products Data - REPLACED WITH PROFESSIONAL IMAGES
+        const productsData = [
+            {
+                title: "Magnets & Permanent Magnets",
+                desc: "High-performance Neodymium (NdFeB), SmCo, and Ceramic Magnets. Custom Magnetic Assemblies for motors and sensors. RoHS compliant with MTR available.",
+                tags: ["Neodymium Magnets", "SmCo Magnets", "Magnetic Assemblies", "Custom Magnets"],
+                img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop" // Professional Industrial Magnet
+            },
+            {
+                title: "Plastic Parts & Injection Molding",
+                desc: "Precision Injection Molding for Automotive and Electronic parts. ABS, PC, Nylon materials. Fast prototyping (3-7 days) and low MOQ support.",
+                tags: ["Injection Molding", "Automotive Plastic Parts", "Precision Components", "Custom Plastic Parts"],
+                img: "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45f7?w=600&h=400&fit=crop" // Injection Molding Factory
+            },
+            {
+                title: "Auto Parts & EV Components",
+                desc: "IATF 16949 Certified Auto Parts & EV Components. Engine parts, connectors, battery packs, and charging ports. OEM quality with high durability.",
+                tags: ["Auto Parts", "EV Components", "IATF 16949", "OEM Automotive Parts"],
+                img: "https://images.unsplash.com/photo-1562408590-e32931084e23?w=600&h=400&fit=crop" // EV/Car Production Line
+            },
+            {
+                title: "CNC Machining Parts",
+                desc: "5-Axis CNC Machining for Precision Components. Aluminum, Stainless Steel, Titanium. ±0.005mm tolerance for aerospace and medical applications.",
+                tags: ["CNC Machining", "Precision Components", "5-Axis CNC", "Custom CNC Parts"],
+                img: "https://images.unsplash.com/photo-1565043666747-69f6646db920?w=600&h=400&fit=crop" // CNC Machine
+            },
+            {
+                title: "Hardware & Fasteners",
+                desc: "Stainless Steel Fasteners, Bolts, Nuts. DIN/ANSI standards compliance. Custom non-standard fasteners with high strength grade 10.9/12.9.",
+                tags: ["Fasteners", "Bolts & Nuts", "Stainless Steel", "Custom Fasteners"],
+                img: "https://images.unsplash.com/photo-1530124566582-a618bc21615d?w=600&h=400&fit=crop" // Fasteners/Hardware
+            },
+            {
+                title: "Electronic Components",
+                desc: "PCBA, Cable Assemblies, Electronic Connectors. RoHS compliant with fast delivery. Sensors and heatsinks for industrial and consumer electronics.",
+                tags: ["PCBA", "Electronic Connectors", "Cable Assemblies", "Sensors"],
+                img: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop" // PCB/Circuit Board
+            }
+        ];
+        
+        // Industries Data - REPLACED AUTOMOTIVE WITH PROFESSIONAL PRODUCTION LINE
+        const industriesData = [
+            { name: "Automotive & EV", desc: "Engine, chassis, battery pack & lighting components meeting IATF 16949 standards.", img: "https://images.unsplash.com/photo-1494972308805-463bc619d34e?w=400&h=500&fit=crop" }, // Auto Production Line
+            { name: "Electronics", desc: "Housings, heat sinks, contacts, EMI shielding for consumer & industrial electronics.", img: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=500&fit=crop" },
+            { name: "Medical Devices", desc: "Biocompatible materials, cleanroom assembly options for regulatory compliance.", img: "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=400&h=500&fit=crop" },
+            { name: "Industrial Hardware", desc: "Custom fasteners, machinery parts, enclosures built for durability.", img: "https://images.unsplash.com/photo-1581092160670-5f93932d41b4?w=400&h=500&fit=crop" },
+            { name: "Home Appliance", desc: "Plastic components, magnetic assemblies for home appliances.", img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=500&fit=crop" },
+            { name: "Energy & Power", desc: "Solar components, battery systems for renewable energy.", img: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400&h=500&fit=crop" },
+            { name: "Telecommunications", desc: "RF components, connectors for telecom equipment.", img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=500&fit=crop" },
+            { name: "Robotics", desc: "Precision gears, sensors for robotic systems.", img: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=500&fit=crop" },
+            { name: "Consumer Goods", desc: "Custom plastic parts, assemblies for consumer products.", img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=500&fit=crop" },
+            { name: "Aerospace", desc: "High-precision components, titanium machining for aerospace applications.", img: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=500&fit=crop" }
+        ];
+        
+        // News Data
+        const newsData = [
+            { icon: "🏭", title: "Factory Expansion Completed", desc: "Successfully expanded our facility by 5,000 sqm to accommodate new production lines and increased capacity.", badge: "Expansion", date: "April 2026" },
+            { icon: "📜", title: "IATF 16949 Certification Renewed", desc: "Successfully renewed our IATF 16949 automotive quality management system certification for another 3 years.", badge: "Certification", date: "March 2026" },
+            { icon: "⚙️", title: "New 5-Axis CNC Machines", desc: "Added 3 new HAAS 5-axis CNC machining centers to enhance our precision machining capabilities for complex parts.", badge: "Equipment", date: "February 2026" },
+            { icon: "🤝", title: "Major EV Partnership", desc: "Signed strategic partnership agreement with a top 5 global EV manufacturer for battery pack components supply.", badge: "Partnership", date: "January 2026" },
+            { icon: "🏆", title: "ISO 9001:2015 Recertification", desc: "Successfully passed ISO 9001:2015 quality management system recertification audit with zero non-conformities.", badge: "Quality", date: "December 2025" },
+            { icon: "🌍", title: "Global Expansion Initiative", desc: "Established new distribution partnerships in North America and Europe to better serve international clients.", badge: "Global", date: "November 2025" },
+            { icon: "🔬", title: "New QC Lab Equipment", desc: "Invested in advanced CMM and optical inspection equipment for better quality control.", badge: "Quality", date: "October 2025" },
+            { icon: "🌱", title: "Sustainability Initiative", desc: "Launched green manufacturing program to reduce carbon footprint by 30%.", badge: "Sustainability", date: "September 2025" },
+            { icon: "👥", title: "Team Expansion", desc: "Hired 50+ skilled engineers and technicians to support our rapid growth.", badge: "Growth", date: "August 2025" },
+            { icon: "🎯", title: "Zero Defect Achievement", desc: "Achieved 6 consecutive months of zero customer complaints and defects.", badge: "Quality", date: "July 2025" }
+        ];
+        
+        // Render Products
+        function renderProducts() {
+            const carousel = document.getElementById('productsCarousel');
+            carousel.innerHTML = productsData.map(product => `
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="${product.img}" alt="${product.title}"
+                             onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop';">
+                    </div>
+                    <div class="product-content">
+                        <h3>${product.title}</h3>
+                        <p>${product.desc}</p>
+                        <div class="product-tags">
+                            ${product.tags.map(tag => `<span class="product-tag">${tag}</span>`).join('')}
+                        </div>
+                        <a href="#contact" class="btn btn-primary" style="padding: 10px 20px; font-size: 14px; display: inline-block;">Inquire Now →</a>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // Render Industries - Duplicate for seamless loop (10 cards x 2 = 20 total)
+        function renderIndustries() {
+            const carousel = document.getElementById('industriesCarousel');
+            const doubledData = [...industriesData, ...industriesData];
+            
+            carousel.innerHTML = doubledData.map(industry => `
+                <div class="industry-card">
+                    <img src="${industry.img}" alt="${industry.name}" class="industry-image"
+                         onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=500&fit=crop';">
+                    <div class="industry-overlay">
+                        <h3>${industry.name}</h3>
+                        <p>${industry.desc}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // Render News
+        function renderNews() {
+            const carousel = document.getElementById('newsCarousel');
+            const doubledData = [...newsData, ...newsData];
+            
+            carousel.innerHTML = doubledData.map(news => `
+                <div class="news-card">
+                    <div class="news-icon">${news.icon}</div>
+                    <h3>${news.title}</h3>
+                    <p>${news.desc}</p>
+                    <div class="news-meta">
+                        <span class="news-badge">${news.badge}</span>
+                        <span>${news.date}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // News Carousel Navigation
+        let newsIndex = 0;
+        const cardsToShow = window.innerWidth <= 640 ? 1 : window.innerWidth <= 968 ? 2 : 5;
+        
+        function moveNewsCarousel(direction) {
+            const carousel = document.getElementById('newsCarousel');
+            const cardWidth = carousel.querySelector('.news-card').offsetWidth + 25;
+            const maxIndex = newsData.length - cardsToShow;
+            
+            newsIndex += direction;
+            
+            if (newsIndex < 0) {
+                newsIndex = maxIndex;
+            } else if (newsIndex > maxIndex) {
+                newsIndex = 0;
+            }
+            
+            carousel.style.transform = `translateX(-${newsIndex * cardWidth}px)`;
+        }
+        
+        // Auto-scroll for news
+        let newsAutoScroll;
+        function initNewsAutoScroll() {
+            newsAutoScroll = setInterval(() => {
+                moveNewsCarousel(1);
+            }, 5000);
+        }
+        
+        // Pause news auto-scroll on hover
+        const newsWrapper = document.querySelector('.news-carousel-wrapper');
+        if (newsWrapper) {
+            newsWrapper.addEventListener('mouseenter', () => {
+                clearInterval(newsAutoScroll);
+            });
+            
+            newsWrapper.addEventListener('mouseleave', () => {
+                initNewsAutoScroll();
+            });
+        }
+        
+        // Initialize
+        renderProducts();
+        renderIndustries();
+        renderNews();
+        initNewsAutoScroll();
+        
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.pageYOffset > 100) {
+                header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
+            } else {
+                header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            }
+        });
+        
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.product-card, .industry-card, .news-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+        
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            newsIndex = 0;
+            const carousel = document.getElementById('newsCarousel');
+            carousel.style.transform = 'translateX(0)';
         });
     </script>
 </body>
